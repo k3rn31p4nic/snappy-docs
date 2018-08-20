@@ -58,7 +58,7 @@ Finally, tell Launchpad to build and publish snaps for this repository:
 1. Type the name of your application in the "Snap name" field, then click on the "Register and proceed to upload" button
 1. Close this tab and return to the branch page on Launchpad
 1. Under the "Related snap packages" heading, click "Create snap package"
-1. In the "Name" field, enter the same name you used on the snap name registration page
+1. In the "Name" field, enter a name for the Launchpad snap recipe (if in doubt, use the same name you used on the snap name registration page)
 1. Under "Processors", select any hardware architectures you wish to build snaps for
 1. Check the box for "Automatically build when branch changes"
 1. Check the box for "Automatically upload to store"
