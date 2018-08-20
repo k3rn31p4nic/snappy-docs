@@ -5,7 +5,7 @@ title: Language guides
 
 Create snaps from your preferred programming language.
 
-<div class="eight-col">
+<div>
   <ul class="inline-logos equal-height">
     <li class="inline-logos__item box">
       <a href="/build-snaps/pre-built"><img class="inline-logos__image" src="{{ site.asset_path }}24be2e8c-adwaita-package.png" alt="Pre-built apps" /><br />Pre-built apps</a>
