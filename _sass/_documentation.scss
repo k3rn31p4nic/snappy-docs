@@ -3,6 +3,8 @@ $button-width: 10px;
 $color-focus: #9d9c9a;
 
 .documentation {
+  max-width: $site-max-width;
+  margin: 0 auto;
   // sass-lint:disable nesting-depth
   background-color: $white;
   display: flex;
