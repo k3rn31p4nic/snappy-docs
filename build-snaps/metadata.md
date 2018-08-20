@@ -34,8 +34,8 @@ interface.
 
 Every app may build a binary that may need to be exposed in the system, with
 that in mind, the way to expose a daemon is by using the **daemon**
-keyword. So, if there were two services, one called *service1* and another
-called *service2*, the extract would look like
+keyword. So, if there were two services, one called *daemon1* and another
+called *daemon2*, the extract would look like
 
 ```yaml
 apps:
