@@ -576,7 +576,7 @@ For example:
 
     snapcraft define go
 
-Will return the definition fro the `go` part:
+Will return the definition for the `go` part:
 
     Maintainer: 'Leo Arias <leo.arias@canonical.com>'
     Description: Go is an open source programming language that makes it easy to build simple,
