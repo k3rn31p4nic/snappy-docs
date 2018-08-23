@@ -80,6 +80,10 @@
             &:hover {
               background-color: $navigation-hover-color;
             }
+            
+            &.active {
+              box-shadow: 0 -3px 0 rgba(250, 99, 64, 1) inset;
+            }
           }
 
           // sass-lint:disable nesting-depth
