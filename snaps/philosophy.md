@@ -43,7 +43,7 @@ your data are always compatible with your code.
 So, use `$SNAP_USER_DATA` for user data. If you have global configuration that should be readable by multiple users,
 read and write to `$SNAP_DATA`. Remember that this last path is only writable by the root user though.
 
-You can have your wrapper script using the same environment variable technique than described on the first stenza.
+You can have your wrapper script using the same environment variable technique than described on the first stanza.
 Another strategy is to unconditionally `cd` to `$SNAP_USER_DATA`.
 
 ## Common vs versioned path.
@@ -69,7 +69,7 @@ Proper confinement is challenging topic. Adding on that adjustment you have to m
 while shipping all your dependencies on a read only system is calling for trouble!
 
 This is for all those reasons you should always start developing your snap in devmode: ensure you define
-`confinement: devmode` in your **snapcraft.yaml** stenza and install your package with `--devmode`. Iterate over it
+`confinement: devmode` in your **snapcraft.yaml** stanza and install your package with `--devmode`. Iterate over it
 while getting your application working. Once done, open the system logs (`/var/log/syslog`), and you may see some
 **apparmor** and **seccomp** warnings with `ALLOWED` tags. Those mean that you have some confinement work to do, by
 adding the right interfaces plugs to your snap declaration.
