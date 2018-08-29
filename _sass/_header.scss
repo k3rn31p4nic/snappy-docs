@@ -56,7 +56,6 @@
     min-height: 1.5rem;
     margin-top: .5rem;
     margin-left: 1.5rem;
-    border-right: 1px solid transparent;
   }
 
   .nav-primary {
@@ -104,12 +103,7 @@
 
             &:link,
             &:visited {
-              padding: {
-                left: 1.25rem;
-                right: 1.25rem;
-              }
               font-size:1em;
-              border: none;
               color: $white;
             }
 
@@ -118,6 +112,7 @@
               background: transparent;
             }
             // sass-lint:enable nesting-depth
+            padding: .75rem 1rem;
           }
         }
       }
